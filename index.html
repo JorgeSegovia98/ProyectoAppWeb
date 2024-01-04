@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="https://kit.fontawesome.com/40e27e6718.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Mi chaucherita web</title>
 </head>
+
 <body class="colorFondo">
-    <header class="colorHeaderFooter">
+    <header class="colorHeaderFooter"> 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-md-2">
-                    <img src="../ProyectoAppWeb/Imágenes/MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid">
+                    <img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid">
                 </div>
                 <div class="col-8 col-md-8 text-center">
                     <nav class="navbar navbar-expand-md navbar-dark">
@@ -26,24 +28,134 @@
                     </nav>
                 </div>
                 <div class="col-12 col-md-2 text-right">
-                    <a href="#" class="text-white titulo3">Settings</a>
+                    <a href="#" class="text-white titulo3">
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
-    <br>
-    <br>
-    <input type="submit" class="boton">
-    <br>
-    <br>
-    <input type="text" class="texto">
-    <br>
-    <p class="titulo1">Hola</p>
-    <br>
-    <p class="titulo2">Hola</p>
-    <br>
-    <p class="titulo3">Hola</p>
-    <br>
-    <p class="textoNormal">Hola</p>
+    
+    <main>
+        <div class="principal">
+            <div class="cuentas">
+                <h1 class="titulo1">Cuentas</h1>
+                <div class="contenedorCuenta">
+                    <div class="textoNormal">
+                        <p>Produbanco</p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="iconosCuentas">
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-down"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-up"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="contenedorCuenta">
+                    <div class="textoNormal">
+                        <p>Pichincha</p>
+                        <p>$2500</p>
+                    </div>
+                    <div class="iconosCuentas">
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-down"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-up"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="contenedorCuenta">
+                    <div class="textoNormal">
+                        <p>Efectivo</p>
+                        <p>$350</p>
+                    </div>
+                    <div class="iconosCuentas">
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-down"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-circle-up"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                        </a>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="categorias">
+                <h1 class="titulo1">Categorias</h1>
+                <div class="calendario titulo3">
+                    <h3>Abril</h3>
+                    <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div id="posicionCategorias">
+                    <div class="contenedorCategoria textoNormal">
+                        <p>Universidad</p>
+                        <p> -100$</p>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+    
+                    <div class="contenedorCategoria textoNormal">
+                        <p>Alimentación</p>
+                        <p> -200$</p>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+    
+                    <div class="contenedorCategoria textoNormal">
+                        <p>Nomina</p>
+                        <p> +3000$</p>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+    
+                    <div class="contenedorCategoria textoNormal">
+                        <p>Transferencias</p>
+                        <p> 0$</p>
+                        <a href=" ">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="textoFooter textoNormal">
+            <p>info@pets.com.ec | Llamanos al 02356741200</p>
+        </div>
+        <div id="iconosFooter">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
 </body>
 </html>

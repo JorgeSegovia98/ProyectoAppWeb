@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    
+
 }
 
 .colorHeaderFooter {
@@ -40,18 +40,122 @@ body {
 
 .titulo1 {
     font-size: 35px;
+    color: var(--picton-blue-950);
 }
 
 .titulo2 {
     font-size: 25px;
+    color: var(--picton-blue-950);
 }
 
 .titulo3 {
     font-size: 18px;
-    color: var(--picton-blue-50);
+    color: var(--picton-blue-950);
 }
 
 .textoNormal {
     font-size: 15px;
-    color: var(--picton-blue-50);
+    color: var(--picton-blue-800);
 }
+
+
+/****** PantallaPrincipal ******/
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cuentas{
+    text-align: center;
+}
+
+.contenedorCuenta{
+    width: 200px;
+    margin: 20px 10px;
+    padding: 10px 12px;
+    background: linear-gradient(135deg, var(--picton-blue-300) 0%, var(--picton-blue-500)); 
+    color: var(--picton-blue-800);
+    border-radius: 10px;
+}
+
+.contenedorCuenta a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.iconosCuentas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.categorias{
+    text-align: center;
+}
+
+.calendario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.calendario i:hover{
+    color: var(--picton-blue-500);
+    cursor: pointer;
+}
+
+#posicionCategorias{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.contenedorCategoria{
+    width: 45%; 
+    margin: 15px 0px;
+    background: linear-gradient(135deg, var(--picton-blue-300) 0%, var(--picton-blue-500)); 
+    color: var(--picton-blue-800);
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+.contenedorCategoria a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.iconosCuentas i:hover,
+.contenedorCategoria i:hover {
+    color: var(--picton-blue-100);
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    background: linear-gradient(to right, var(--picton-blue-500), var(--picton-blue-700)); 
+}
+
+.textoFooter {
+    display: flex;
+    margin-left: 30px;
+}
+
+#iconosFooter {
+    display: flex;
+    column-gap: 40px;
+    margin-right: 30px;
+}
+
+/******  ******/
