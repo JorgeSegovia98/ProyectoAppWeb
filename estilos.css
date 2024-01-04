@@ -1,0 +1,57 @@
+:root {
+    --picton-blue-50: rgb(241, 249, 254);
+    --picton-blue-100: rgb(226, 241, 252);
+    --picton-blue-200: rgb(191, 226, 248);
+    --picton-blue-300: rgb(135, 204, 242);
+    --picton-blue-400: rgb(83, 183, 234);
+    --picton-blue-500: rgb(32, 152, 215);
+    --picton-blue-600: rgb(18, 122, 183);
+    --picton-blue-700: rgb(16, 97, 148);
+    --picton-blue-800: rgb(17, 83, 123);
+    --picton-blue-900: rgb(20, 70, 102);
+    --picton-blue-950: rgb(13, 44, 68);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.colorHeaderFooter {
+    background: linear-gradient(135deg, var(--picton-blue-500) 0%, var(--picton-blue-800));
+}
+
+.colorFondo {
+    background-color: var(--picton-blue-100);
+}
+
+.boton {
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--picton-blue-400) 0%, var(--picton-blue-600));
+    border: none;
+    color: rgb(255,255,255);
+    padding: 5px 12px;
+}
+
+.texto{
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+}
+
+.titulo1 {
+    font-size: 35px;
+}
+
+.titulo2 {
+    font-size: 25px;
+}
+
+.titulo3 {
+    font-size: 18px;
+    color: var(--picton-blue-50);
+}
+
+.textoNormal {
+    font-size: 15px;
+    color: var(--picton-blue-50);
+}
