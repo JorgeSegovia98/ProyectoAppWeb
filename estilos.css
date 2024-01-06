@@ -246,3 +246,113 @@ select{
     height: 40px;
     width: 100%;
 }
+
+/*Categorías*/
+
+.margen{
+    width: 100%;
+}
+
+#centro{
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.fondoAceptar{
+    background: linear-gradient(135deg, var(--picton-blue-400) 0%, var(--picton-blue-600));
+}
+
+.fondoCancelar{
+    background: linear-gradient(135deg, rgb(222, 42, 3) 0%, rgb(182, 32, 0));
+}
+
+.cuadroTexto{
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+}
+
+
+#formulario{
+    margin: 50px;
+    padding: 50px;
+    background-color: var(--picton-blue-200);
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+}
+
+#botones{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.backgroundAzul{
+    background-color: rgb(18, 122, 183);
+}
+
+#titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Movimientos*/
+
+#centroMovimientos{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#centroMovimientos div{
+    margin: 20px;
+}
+
+#iconosMovimientos{
+    display: flex;
+    justify-content: center;
+}
+
+#iconosMovimientos a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+#iconosMovimientos i{
+    color: var(--picton-blue-800);
+    font-size: 40px;
+    margin: 0px 1vw 0px 1vw ;
+}
+
+#iconosMovimientos i:hover{
+    color: var(--picton-blue-300);
+}
+
+
+#tabla{
+    width: 100%;
+    border: 2px var(--picton-blue-950) solid;
+    margin-bottom: 20px;
+}
+
+#titulosMovimientos{
+    background-color: var(--picton-blue-500);
+}
+
+#tabla th, td {
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
