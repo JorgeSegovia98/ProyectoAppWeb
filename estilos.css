@@ -170,7 +170,7 @@ ul {
     margin: 0;
 }
 
-/******  TRANSACCIONES ******/
+/******  EGRESO E INGRESO ******/
 
 .datosCuenta {
     display: flex;
@@ -246,6 +246,17 @@ select{
     border-radius: 10px;
     height: 40px;
     width: 100%;
+}
+
+/******  TRANSACCIÓN  ******/
+.beneficiario {
+    margin: 0 0 25px 0;
+}
+
+.beneficiarioSubdivision {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px
 }
 
 /*Categorías*/
