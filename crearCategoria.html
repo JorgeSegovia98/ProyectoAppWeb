@@ -7,9 +7,10 @@
     <script src="https://kit.fontawesome.com/40e27e6718.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Crear categoría</title>
 
+    <title>Crear categoría</title>
 </head>
+
 <body class="colorFondo margen">
     <header class="colorHeaderFooter"> 
         <div class="container">
@@ -17,7 +18,7 @@
                 <div class="col-4 col-md-2">
                     <img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid">
                 </div>
-                <div class="col-8 col-md-8 text-center">
+                <div class="col-6 col-md-8 text-center">
                     <nav class="navbar navbar-expand-md navbar-dark">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item titulo3"><a href="#" class="nav-link">Inicio</a></li>
@@ -27,7 +28,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-12 col-md-2 text-right">
+                <div class="col-2 col-md-2 text-right">
                     <a href="#" class="text-white titulo3 iconoConfig">
                         <i class="fas fa-cog"></i>
                     </a>
@@ -36,22 +37,23 @@
         </div>
     </header>
 
-
-    <h2 class="titulo1" id="titulo">Crear categoría</h2>
-    <div id="centro">
-        <div id="formulario">
-            
-            <div>
-                <h1 class="titulo3">ID: 12</h1>
-                <h1 class="titulo3">Nombre de la categoría: </h1>
-                <input class="cuadroTexto" type="text" placeholder="Categoria" required>
+    <main>
+        <h2 class="titulo1" id="titulo">Crear categoría</h2>
+        <div id="centro">
+            <div id="formulario">
+                
+                <div>
+                    <h1 class="titulo3">ID: 12</h1>
+                    <h1 class="titulo3">Nombre de la categoría: </h1>
+                    <input class="cuadroTexto" type="text" placeholder="Categoria" required>
+                </div>
+                <div id="botones">
+                    <button class="boton fondoAceptar">Crear</button>
+                    <button class="boton fondoCancelar" id="botonCancelar">Cancelar</button>
+                </div>   
             </div>
-            <div id="botones">
-                <button class="boton fondoAceptar">Crear</button>
-                <button class="boton fondoCancelar" id="botonCancelar">Cancelar</button>
-            </div>   
         </div>
-    </div>
+    </main>
 
     <div class="container-fluid colorHeaderFooter colorTextoFooter">
         <div class="row align-items-center">
@@ -69,9 +71,5 @@
             </div>
         </div>
     </div>
-
-
-    
 </body>
-
 </html>
