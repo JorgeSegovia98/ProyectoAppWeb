@@ -168,3 +168,81 @@ main {
 ul {
     margin: 0;
 }
+
+/******  TRANSACCIONES ******/
+
+.datosCuenta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 50px 0 50px;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.formularioTransacción {
+    margin: 0 50px 25px 50px;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.tituloPagina {
+    margin: 10px 50px;
+    background-color: white;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.botonesOperacionales {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.monto {
+    margin-bottom: 25px;
+}
+
+.montoSubdivision {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.espaciado {
+    margin-bottom: 25px;
+}
+
+.montoCuadro {
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+.entradasTransacciones {
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.miTexto{
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+select{
+    border: solid 1px var(--picton-blue-900);
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
