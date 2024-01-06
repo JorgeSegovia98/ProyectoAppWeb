@@ -12,9 +12,19 @@
     --picton-blue-950: rgb(13, 44, 68);
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
 
+main {
+    flex: 1;
 }
 
 .colorHeaderFooter {
@@ -36,26 +46,31 @@ body {
 .texto{
     border: solid 1px var(--picton-blue-900);
     border-radius: 10px;
+    height: 40px;
 }
 
 .titulo1 {
     font-size: 35px;
     color: var(--picton-blue-950);
+    margin: 0;
 }
 
 .titulo2 {
     font-size: 25px;
     color: var(--picton-blue-950);
+    margin: 0;
 }
 
 .titulo3 {
     font-size: 18px;
     color: var(--picton-blue-950);
+    margin: 0;
 }
 
 .textoNormal {
     font-size: 15px;
     color: var(--picton-blue-800);
+    margin: 0;
 }
 
 
@@ -149,4 +164,7 @@ body {
 .iconosFooter i:hover{
     color: var(--picton-blue-100);
 }
-/******  ******/
+
+ul {
+    margin: 0;
+}
