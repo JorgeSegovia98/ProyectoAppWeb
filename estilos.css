@@ -365,3 +365,29 @@ select{
 #tabla tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+
+
+/* Crud Cuenta */
+
+#tabla {
+    width: 100%;
+    border: 2px var(--picton-blue-950) solid;
+    margin-bottom: 20px;
+}
+
+#titulosMovimientos {
+    background-color: var(--picton-blue-500);
+}
+
+#tabla th, td {
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
