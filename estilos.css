@@ -170,6 +170,83 @@ ul {
     margin: 0;
 }
 
+/***** CONFIGURACIÓN CUENTAS *****/
+#configuracionCuentasCategorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#configuracionCuentasCategorias div {
+    gap: 30px;
+}
+
+.contenedorConfiguracion {
+    width: 400px;
+    margin: 20px 10px;
+    padding: 10px 12px;
+    background: linear-gradient(
+    135deg,
+    var(--picton-blue-300) 0%,
+    var(--picton-blue-500)
+    );
+    color: var(--picton-blue-800);
+    border-radius: 10px;
+  }
+  
+  .contenedorConfiguracion a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .iconosConfiguracion {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .iconosConfiguracion:hover {
+    color: var(--picton-blue-100);
+    cursor: pointer;
+  }
+  
+  .iconosConfiguracion i {
+    font-size: 48px;
+    padding: 25px;
+  }
+  
+  /***** CATEGORIAS ****/
+  
+  #categoriaTable {
+    border: 2px var(--picton-blue-950) solid;
+    margin-bottom: 20px;
+  }
+  
+  #titulosMovimientosCategorias {
+    background-color: var(--picton-blue-500);
+  }
+  
+  #categoriaTable th,
+  td {
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #categoriaTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #mainCategoria {
+    margin: 2px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 /******  EGRESO E INGRESO ******/
 
 .datosCuenta {
