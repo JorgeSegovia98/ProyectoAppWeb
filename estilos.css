@@ -38,7 +38,6 @@ main {
 
 .boton {
     border-radius: 10px;
-    background: linear-gradient(135deg, var(--picton-blue-400) 0%, var(--picton-blue-600));
     border: none;
     color: rgb(255,255,255);
     padding: 5px 12px;
@@ -74,6 +73,16 @@ main {
     margin: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
 
 /****** PantallaPrincipal ******/
 .iconoConfig i:hover{
@@ -92,6 +101,11 @@ main {
     background: linear-gradient(135deg, var(--picton-blue-300) 0%, var(--picton-blue-500)); 
     color: var(--picton-blue-800);
     border-radius: 10px;
+    border: 1px solid var(--picton-blue-950);
+}
+
+.colorCuentas p {
+    color: var(--picton-blue-950);
 }
 
 .contenedorCuenta a{
@@ -136,6 +150,7 @@ main {
     color: var(--picton-blue-800);
     border-radius: 10px;
     padding-bottom: 8px;
+    border: 1px solid var(--picton-blue-950);
 }
 
 .contenedorCategoria a{
@@ -259,6 +274,12 @@ ul {
     border-radius: 15px 15px 0 0;
 }
 
+.contenedorCreacion {
+    margin-top: 150px;
+}
+
+
+
 .formularioTransacción {
     margin: 0 50px 25px 50px;
     background-color: white;
@@ -271,6 +292,14 @@ ul {
     background-color: white;
     padding: 15px 15px;
     text-align: center;
+}
+
+.tituloPaginaOpcion2 {
+    margin: 10px 50px;
+    background-color: white;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
 }
 
 .botonesOperacionales {
@@ -365,14 +394,33 @@ select{
     padding: 50px;
     background-color: var(--picton-blue-200);
     border-radius: 30px;
-    width: 300px;
-    height: 250px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario-centro {
+    background-color: var(--picton-blue-50);
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+input::placeholder{
+    padding-left: 5px;
+    font-size: 14px;
 }
 
 #botones{
     margin: 20px;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 
 }
 

@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-md-2">
-                    <img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid">
+                    <a href="index.html"><img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-md-8 text-center">
                     <nav class="navbar navbar-expand-md navbar-dark">
@@ -37,23 +37,30 @@
         </div>
     </header>
 
-    <main>
-        <h2 class="titulo1" id="titulo">Crear nueva cuenta</h2>
-        <div id="centro">
-            <div id="formulario">
-                
-                <div>
-                    <h1 class="titulo3">Número de cuenta: 4</h1>
-                    <h1 class="titulo3">Nombre de la cuenta: </h1>
-                    <input class="cuadroTexto" type="text" placeholder="Nombre cuenta" required>
-                </div>
-                <div id="botones">
-                    <button class="boton fondoAceptar">Crear</button>
-                    <a class="boton fondoCancelar" id="botonCancelar" href="index.html">Cancelar</a>
-                </div>   
-            </div>
+<main>
+    <div class="contenedorCreacion">
+        <div class="tituloPaginaOpcion2">
+            <p class="titulo1">Crear nueva cuenta</p>
         </div>
-    </main>
+
+
+        <div class="formularioTransacción">
+            <form action="">
+                <p class="textoNormal">Número de cuenta: </p>
+                <input type="text" class="entradasTransacciones espaciado" value="4">
+
+                <p class="textoNormal">Nombre de la cuenta: </p>
+                <input type="text" class="entradasTransacciones espaciado">
+                <hr>
+                <div class="botonesOperacionales">
+                    <input type="button" value="Crear" class="boton fondoAceptar">
+
+                    <a href="cuenta.html" class="boton fondoCancelar">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>   
 
     <div class="container-fluid colorHeaderFooter colorTextoFooter">
         <div class="row align-items-center">

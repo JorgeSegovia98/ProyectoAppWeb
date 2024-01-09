@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-md-2">
-                    <img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid">
+                    <a href="index.html"><img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-md-8 text-center">
                     <nav class="navbar navbar-expand-md navbar-dark">
@@ -39,11 +39,10 @@
 
     <main id="centroMovimientos" class="colorFondo">
         <h2 class="titulo1">Resumen cuentas</h2>
-
-        <a class="boton" href="crearCuenta.html">Agregar cuenta</a>
-
         <br>
-
+        <a class="boton fondoAceptar" href="crearCuenta.html">Agregar cuenta</a>
+        <br>
+<!--
         <table id="cuentasTable" class="tabla">
             <thead class="titulosMovimientos">
                 <tr>
@@ -58,7 +57,7 @@
                     <td>1</td>
                     <td>Cuenta Ejemplo 1</td>
                     <td>
-                        <button onclick="editarCuenta(0)" class="boton">Editar</button>
+                        <a href="editarCategoria.html"><button class="boton fondoAceptar">Editar</button></a>
                         <button onclick="eliminarCuenta(0)" class="boton fondoCancelar">Eliminar</button>
                     </td>
                 </tr>
@@ -66,13 +65,56 @@
                     <td>2</td>
                     <td>Cuenta Ejemplo 2</td>
                     <td>
-                        <button onclick="editarCuenta(1)" class="boton">Editar</button>
+                        <a href="editarCategoria.html"><button class="boton fondoAceptar">Editar</button></a>
                         <button onclick="eliminarCuenta(1)" class="boton fondoCancelar">Eliminar</button>
                     </td>
                 </tr>
                 
             </tbody>
         </table>
+        -->
+        <table id="categoriaTable">
+            <thead id="titulosMovimientosCategorias">
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Produbanco</td>
+                <td>
+                  <a href="editarCuenta.html"
+                    ><button class="boton fondoAceptar">Editar</button></a
+                  >
+                  <button class="boton fondoCancelar">Eliminar</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Pichincha</td>
+                <td>
+                  <a href="editarCuenta.html"
+                    ><button class="boton fondoAceptar">Editar</button></a
+                  >
+                  <button class="boton fondoCancelar">Eliminar</button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Efectivo</td>
+                <td>
+                  <a href="editarCuenta.html"
+                    ><button class="boton fondoAceptar">Editar</button></a
+                  >
+                  <button class="boton fondoCancelar">Eliminar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        <a href="configuracion.html" class="boton fondoCancelar">Regresar</a>
     </main>
 
     <div class="container-fluid colorHeaderFooter colorTextoFooter">
