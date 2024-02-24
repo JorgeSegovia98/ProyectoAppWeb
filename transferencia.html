@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
-
-    <title>Crear categoría</title>
+    
+    <title>Transferencia</title>
 </head>
 
-<body class="colorFondo margen">
+<body class="colorFondo">
     <header class="colorHeaderFooter"> 
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-4 col-md-2">
+                <div class="col-4 col-md-2">    
                     <a href="index.html"><img src="Imágenes\MI CHAUCHERITA (2).png" alt="Logo" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-md-8 text-center">
@@ -38,38 +38,61 @@
     </header>
 
     <main>
-        <div class="contenedorCreacion">
-            <div class="tituloPaginaOpcion2">
-                <p class="titulo1">Crear nueva categoría</p>
+        <div class="datosCuenta">
+            <div>
+                <p class="titulo1">Cuenta Produbanco</p>
+                <p class="textoNormal">22XXXX4679</p>
             </div>
-    
-    
-            <div class="formularioTransacción">
-                <form action="">
-                    <p class="textoNormal">ID: </p>
-                    <input type="text" class="entradasTransacciones espaciado" value="12">
-                
-                    <p class="textoNormal">Nombre de la categoría: </p>
-                    <input type="text" class="entradasTransacciones espaciado">
-                    
-                    <label for="opciones" class="textoNormal">Tipo de categoria</label>
-                    <select id="opciones" name="opciones" class="espaciado">
-                    <option value="opcion1">-</option>
-                    <option value="opcion1">Ingreso</option>
-                    <option value="opcion2">Egreso</option>>
-                    </select>
-                    <hr>
-                    
-                    <div class="botonesOperacionales">
-                        <button class="boton fondoAceptar">Crear</button>
-                        <a href="categoria.html" class="boton fondoCancelar">Cancelar</a>
-                    </div>
-                </form>
-            </div>
+            <p class="titulo2"> $1000</p>
         </div>
-    </main>       
 
-    <div class="container-fluid colorHeaderFooter colorTextoFooter">
+        <div class="tituloPagina">
+            <p class="titulo1">TRANSFERENCIA</p>
+        </div>
+
+        <div class="formularioTransacción">
+            <form action="">
+                <div class="monto">
+                    <p class="textoNormal">Monto</p>
+                    <div class="montoSubdivision">
+                        <p class="textoNormal">$</p>
+                        <input type="text" class="montoCuadro">
+                    </div>
+                </div>
+
+                <label for="opciones" class="textoNormal">Destino</label>
+                <select id="opciones" name="opciones" class="espaciado">
+                    <option value="opcion1">-</option>
+                    <option value="opcion1">Produbanco</option>
+                    <option value="opcion2">Pichincha</option>
+                    <option value="opcion3">Efectivo</option>
+                </select>
+
+                <p class="textoNormal">Fecha</p>
+                <input type="date" class="entradasTransacciones espaciado">
+                
+                <label for="opciones" class="textoNormal">Categoria:</label>
+                <select id="opciones" name="opciones" class="espaciado">
+                    <option value="opcion1">-</option>
+                    <option value="opcion1">Universidad</option>
+                    <option value="opcion2">Alimentación</option>
+                    <option value="opcion3">Transferencia</option>
+                    <option value="opcion3">Nómina</option>
+                </select>
+                
+                <p class="textoNormal">Concepto</p>
+                <textarea class="miTexto" name="concepto"></textarea>
+                <br>
+                <hr>
+                <div class="botonesOperacionales">
+                    <input type="button" value="Guardar" class="boton fondoAceptar">
+                    <input type="button" value="Cancelar" class="boton fondoCancelar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <div class="footer container-fluid colorHeaderFooter colorTextoFooter">
         <div class="row align-items-center">
             <div class="col-md-6"> 
                 <ul class="navbar navbar-expand-md navbar-dark list-unstyled">
